@@ -1,0 +1,10 @@
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\bin\Debug\galgje.exe.config
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\bin\Debug\galgje.exe
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\bin\Debug\galgje.pdb
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\obj\Debug\galgje.csprojAssemblyReference.cache
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\obj\Debug\galgje.Form1.resources
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\obj\Debug\galgje.Properties.Resources.resources
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\obj\Debug\galgje.csproj.GenerateResource.cache
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\obj\Debug\galgje.csproj.CoreCompileInputs.cache
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\obj\Debug\galgje.exe
+C:\Users\rll6ib\Documents\KieronParmentier\Csharp\Galgje\galgje\galgje\obj\Debug\galgje.pdb
