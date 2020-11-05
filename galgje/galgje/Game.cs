@@ -16,5 +16,10 @@ namespace galgje
         {
             InitializeComponent();
         }
+
+        private void testToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
