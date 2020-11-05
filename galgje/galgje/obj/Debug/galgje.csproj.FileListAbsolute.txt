@@ -20,4 +20,4 @@ D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.pdb
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Game.resources
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Lijsten.resources
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Toevoegen.resources
-D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Start.resources
+D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Home.resources
