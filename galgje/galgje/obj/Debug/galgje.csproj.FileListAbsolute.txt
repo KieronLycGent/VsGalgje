@@ -21,3 +21,6 @@ D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Game.resources
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Lijsten.resources
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Toevoegen.resources
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Home.resources
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.csprojAssemblyReference.cache
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.exe
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.pdb

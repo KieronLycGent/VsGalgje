@@ -15,6 +15,7 @@ namespace galgje
         public Lijsten()
         {
             InitializeComponent();
+
         }
     }
 }

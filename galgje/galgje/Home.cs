@@ -27,7 +27,7 @@ namespace galgje
 
         private void infoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Interaction.MsgBox("Dit programma is geshcreven door Sepp Degroote, Kieron Parmentier en Rein Goossens, uit 6IB");
+            Interaction.MsgBox("Dit programma is geschreven door Sepp Degroote, Kieron Parmentier en Rein Goossens, uit 6IB");
         }
     }
 }
