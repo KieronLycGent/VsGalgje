@@ -24,3 +24,14 @@ D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.Home.resources
 D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.csprojAssemblyReference.cache
 D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.exe
 D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.pdb
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\bin\Debug\galgje.exe.config
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\bin\Debug\galgje.exe
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\bin\Debug\galgje.pdb
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.Home.resources
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.Game.resources
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.Lijsten.resources
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.Properties.Resources.resources
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.Toevoegen.resources
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.csproj.GenerateResource.cache
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.csproj.CoreCompileInputs.cache
+D:\School\6IB\Software\CSharp\VsGalgje\VsGalgje\galgje\galgje\obj\Debug\galgje.KiesLijst.resources

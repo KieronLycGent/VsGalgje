@@ -21,8 +21,10 @@ namespace galgje
         Game frmbegin = new Game();
         private void button1_Click(object sender, EventArgs e)
         {
-            Game frmGegevens_instantie = new Game();
-            frmGegevens_instantie.Show();
+            //Maakt een Lijsten Form --> Zo kan frmGame0 arrays binnenhalen
+            KiesLijst frmKieslst0 = new KiesLijst();
+            //Opent Game Form
+            frmKieslst0.Show(); 
         }
 
         private void infoToolStripMenuItem_Click(object sender, EventArgs e)

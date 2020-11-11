@@ -39,6 +39,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Lijsten";
             this.Text = "Lijsten";
+            this.Load += new System.EventHandler(this.Lijsten_Load);
             this.ResumeLayout(false);
 
         }

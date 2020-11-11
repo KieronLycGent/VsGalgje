@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KiesLijst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KiesLijst.Designer.cs">
+      <DependentUpon>KiesLijst.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KiesLijst.resx">
+      <DependentUpon>KiesLijst.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lijsten.resx">
       <DependentUpon>Lijsten.cs</DependentUpon>

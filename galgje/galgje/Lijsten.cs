@@ -15,7 +15,23 @@ namespace galgje
         public Lijsten()
         {
             InitializeComponent();
-
+        }
+        //lstAlfabetGr
+        public static string[] lstAlfabetGr = new string[10];
+        
+             
+        private void Lijsten_Load(object sender, EventArgs e)
+        {
+            lstAlfabetGr[0] = "alfa";
+            lstAlfabetGr[1] = "beta";
+            lstAlfabetGr[2] = "omega";
+            lstAlfabetGr[3] = "theta";
+            lstAlfabetGr[4] = "delta";
+            lstAlfabetGr[5] = "gamma";
+            lstAlfabetGr[6] = "sigma";
+            lstAlfabetGr[7] = "mu";
+            lstAlfabetGr[8] = "psi";
+            lstAlfabetGr[9] = "tau";
         }
     }
 }
