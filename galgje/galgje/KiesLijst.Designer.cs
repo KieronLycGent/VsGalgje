@@ -28,21 +28,245 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.lstMeubilair = new System.Windows.Forms.ListBox();
+            this.lstEten = new System.Windows.Forms.ListBox();
+            this.lstKledij = new System.Windows.Forms.ListBox();
+            this.lstCustom1 = new System.Windows.Forms.ListBox();
+            this.lstGrieksAlfabet = new System.Windows.Forms.ListBox();
+            this.lstDieren = new System.Windows.Forms.ListBox();
+            this.btnDieren = new System.Windows.Forms.Button();
+            this.btnMeubilair = new System.Windows.Forms.Button();
+            this.btnEten = new System.Windows.Forms.Button();
+            this.btnKledij = new System.Windows.Forms.Button();
+            this.btnCustom1 = new System.Windows.Forms.Button();
+            this.btnGrieksAlfabet = new System.Windows.Forms.Button();
+            this.lstLichaamsdelen = new System.Windows.Forms.ListBox();
+            this.lstCustom2 = new System.Windows.Forms.ListBox();
+            this.btnLichaamsdelen = new System.Windows.Forms.Button();
+            this.btnCustom2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnRandom = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // lstMeubilair
+            // 
+            this.lstMeubilair.FormattingEnabled = true;
+            this.lstMeubilair.ItemHeight = 16;
+            this.lstMeubilair.Location = new System.Drawing.Point(13, 102);
+            this.lstMeubilair.Name = "lstMeubilair";
+            this.lstMeubilair.Size = new System.Drawing.Size(154, 180);
+            this.lstMeubilair.TabIndex = 6;
+            // 
+            // lstEten
+            // 
+            this.lstEten.FormattingEnabled = true;
+            this.lstEten.ItemHeight = 16;
+            this.lstEten.Location = new System.Drawing.Point(173, 102);
+            this.lstEten.Name = "lstEten";
+            this.lstEten.Size = new System.Drawing.Size(154, 180);
+            this.lstEten.TabIndex = 7;
+            // 
+            // lstKledij
+            // 
+            this.lstKledij.FormattingEnabled = true;
+            this.lstKledij.ItemHeight = 16;
+            this.lstKledij.Location = new System.Drawing.Point(333, 102);
+            this.lstKledij.Name = "lstKledij";
+            this.lstKledij.Size = new System.Drawing.Size(154, 180);
+            this.lstKledij.TabIndex = 8;
+            // 
+            // lstCustom1
+            // 
+            this.lstCustom1.FormattingEnabled = true;
+            this.lstCustom1.ItemHeight = 16;
+            this.lstCustom1.Location = new System.Drawing.Point(522, 102);
+            this.lstCustom1.Name = "lstCustom1";
+            this.lstCustom1.Size = new System.Drawing.Size(154, 180);
+            this.lstCustom1.TabIndex = 9;
+            // 
+            // lstGrieksAlfabet
+            // 
+            this.lstGrieksAlfabet.FormattingEnabled = true;
+            this.lstGrieksAlfabet.ItemHeight = 16;
+            this.lstGrieksAlfabet.Location = new System.Drawing.Point(333, 328);
+            this.lstGrieksAlfabet.Name = "lstGrieksAlfabet";
+            this.lstGrieksAlfabet.Size = new System.Drawing.Size(154, 180);
+            this.lstGrieksAlfabet.TabIndex = 10;
+            // 
+            // lstDieren
+            // 
+            this.lstDieren.FormattingEnabled = true;
+            this.lstDieren.ItemHeight = 16;
+            this.lstDieren.Location = new System.Drawing.Point(13, 328);
+            this.lstDieren.Name = "lstDieren";
+            this.lstDieren.Size = new System.Drawing.Size(154, 180);
+            this.lstDieren.TabIndex = 11;
+            // 
+            // btnDieren
+            // 
+            this.btnDieren.Location = new System.Drawing.Point(13, 288);
+            this.btnDieren.Name = "btnDieren";
+            this.btnDieren.Size = new System.Drawing.Size(154, 34);
+            this.btnDieren.TabIndex = 12;
+            this.btnDieren.Text = "Dieren";
+            this.btnDieren.UseVisualStyleBackColor = true;
+            // 
+            // btnMeubilair
+            // 
+            this.btnMeubilair.Location = new System.Drawing.Point(13, 62);
+            this.btnMeubilair.Name = "btnMeubilair";
+            this.btnMeubilair.Size = new System.Drawing.Size(154, 34);
+            this.btnMeubilair.TabIndex = 14;
+            this.btnMeubilair.Text = "Meubilair";
+            this.btnMeubilair.UseVisualStyleBackColor = true;
+            this.btnMeubilair.Click += new System.EventHandler(this.btnMeubilair_Click);
+            // 
+            // btnEten
+            // 
+            this.btnEten.Location = new System.Drawing.Point(173, 62);
+            this.btnEten.Name = "btnEten";
+            this.btnEten.Size = new System.Drawing.Size(154, 34);
+            this.btnEten.TabIndex = 15;
+            this.btnEten.Text = "Eten";
+            this.btnEten.UseVisualStyleBackColor = true;
+            // 
+            // btnKledij
+            // 
+            this.btnKledij.Location = new System.Drawing.Point(333, 62);
+            this.btnKledij.Name = "btnKledij";
+            this.btnKledij.Size = new System.Drawing.Size(154, 34);
+            this.btnKledij.TabIndex = 16;
+            this.btnKledij.Text = "Kledij";
+            this.btnKledij.UseVisualStyleBackColor = true;
+            // 
+            // btnCustom1
+            // 
+            this.btnCustom1.Location = new System.Drawing.Point(522, 62);
+            this.btnCustom1.Name = "btnCustom1";
+            this.btnCustom1.Size = new System.Drawing.Size(154, 34);
+            this.btnCustom1.TabIndex = 17;
+            this.btnCustom1.Text = "Custom 1";
+            this.btnCustom1.UseVisualStyleBackColor = true;
+            // 
+            // btnGrieksAlfabet
+            // 
+            this.btnGrieksAlfabet.Location = new System.Drawing.Point(333, 288);
+            this.btnGrieksAlfabet.Name = "btnGrieksAlfabet";
+            this.btnGrieksAlfabet.Size = new System.Drawing.Size(154, 34);
+            this.btnGrieksAlfabet.TabIndex = 18;
+            this.btnGrieksAlfabet.Text = "Grieks alfabet";
+            this.btnGrieksAlfabet.UseVisualStyleBackColor = true;
+            // 
+            // lstLichaamsdelen
+            // 
+            this.lstLichaamsdelen.FormattingEnabled = true;
+            this.lstLichaamsdelen.ItemHeight = 16;
+            this.lstLichaamsdelen.Location = new System.Drawing.Point(173, 328);
+            this.lstLichaamsdelen.Name = "lstLichaamsdelen";
+            this.lstLichaamsdelen.Size = new System.Drawing.Size(154, 180);
+            this.lstLichaamsdelen.TabIndex = 24;
+            // 
+            // lstCustom2
+            // 
+            this.lstCustom2.FormattingEnabled = true;
+            this.lstCustom2.ItemHeight = 16;
+            this.lstCustom2.Location = new System.Drawing.Point(522, 328);
+            this.lstCustom2.Name = "lstCustom2";
+            this.lstCustom2.Size = new System.Drawing.Size(154, 180);
+            this.lstCustom2.TabIndex = 23;
+            // 
+            // btnLichaamsdelen
+            // 
+            this.btnLichaamsdelen.Location = new System.Drawing.Point(173, 288);
+            this.btnLichaamsdelen.Name = "btnLichaamsdelen";
+            this.btnLichaamsdelen.Size = new System.Drawing.Size(154, 34);
+            this.btnLichaamsdelen.TabIndex = 30;
+            this.btnLichaamsdelen.Text = "Lichaamsdelen";
+            this.btnLichaamsdelen.UseVisualStyleBackColor = true;
+            // 
+            // btnCustom2
+            // 
+            this.btnCustom2.Location = new System.Drawing.Point(522, 288);
+            this.btnCustom2.Name = "btnCustom2";
+            this.btnCustom2.Size = new System.Drawing.Size(154, 34);
+            this.btnCustom2.TabIndex = 29;
+            this.btnCustom2.Text = "Custom2";
+            this.btnCustom2.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(196, 511);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(291, 17);
+            this.label1.TabIndex = 31;
+            this.label1.Text = "test zodat ik het label nie opniew kwijt geraak";
+            // 
+            // btnRandom
+            // 
+            this.btnRandom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRandom.Location = new System.Drawing.Point(12, 10);
+            this.btnRandom.Name = "btnRandom";
+            this.btnRandom.Size = new System.Drawing.Size(666, 46);
+            this.btnRandom.TabIndex = 32;
+            this.btnRandom.Text = "Random lijst";
+            this.btnRandom.UseVisualStyleBackColor = true;
+            this.btnRandom.Click += new System.EventHandler(this.btnRandom_Click);
             // 
             // KiesLijst
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(716, 393);
+            this.Controls.Add(this.btnRandom);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnLichaamsdelen);
+            this.Controls.Add(this.btnCustom2);
+            this.Controls.Add(this.lstLichaamsdelen);
+            this.Controls.Add(this.lstCustom2);
+            this.Controls.Add(this.btnGrieksAlfabet);
+            this.Controls.Add(this.btnCustom1);
+            this.Controls.Add(this.btnKledij);
+            this.Controls.Add(this.btnEten);
+            this.Controls.Add(this.btnMeubilair);
+            this.Controls.Add(this.btnDieren);
+            this.Controls.Add(this.lstDieren);
+            this.Controls.Add(this.lstGrieksAlfabet);
+            this.Controls.Add(this.lstCustom1);
+            this.Controls.Add(this.lstKledij);
+            this.Controls.Add(this.lstEten);
+            this.Controls.Add(this.lstMeubilair);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "KiesLijst";
             this.Text = "Form1";
             this.Activated += new System.EventHandler(this.KiesLijst_Activated);
             this.Load += new System.EventHandler(this.KiesLijst_Load);
+            this.Click += new System.EventHandler(this.KiesLijst_Click);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox lstMeubilair;
+        private System.Windows.Forms.ListBox lstEten;
+        private System.Windows.Forms.ListBox lstKledij;
+        private System.Windows.Forms.ListBox lstCustom1;
+        private System.Windows.Forms.ListBox lstGrieksAlfabet;
+        private System.Windows.Forms.ListBox lstDieren;
+        private System.Windows.Forms.Button btnDieren;
+        private System.Windows.Forms.Button btnMeubilair;
+        private System.Windows.Forms.Button btnEten;
+        private System.Windows.Forms.Button btnKledij;
+        private System.Windows.Forms.Button btnCustom1;
+        private System.Windows.Forms.Button btnGrieksAlfabet;
+        private System.Windows.Forms.ListBox lstLichaamsdelen;
+        private System.Windows.Forms.ListBox lstCustom2;
+        private System.Windows.Forms.Button btnLichaamsdelen;
+        private System.Windows.Forms.Button btnCustom2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnRandom;
     }
 }
