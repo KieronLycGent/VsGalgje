@@ -16,7 +16,8 @@ namespace galgje
         {
             InitializeComponent();
         }
-        
+        //Een variabele die meegeeft welke array die overgedragen moet worden naar Game
+        public static string lijstId = "";
         //De standaars arrays
         public static string[] meubilair = new string[10];
         public static string[] eten = new string[10];
@@ -106,7 +107,7 @@ namespace galgje
             {
                 lstLichaamsdelen.Items.Add(lichaamsdelen[i]);
             }
-            //arrey van het grikse alfabet
+            //arrey van het Griekse alfabet
             lstAlfabetGr[0] = "alfa";
             lstAlfabetGr[1] = "beta";
             lstAlfabetGr[2] = "omega";
@@ -125,25 +126,52 @@ namespace galgje
 
         }
 
-        private void KiesLijst_Activated(object sender, EventArgs e)
+        private void btnRandom_Click(object sender, EventArgs e)
         {
-            //this.Hide();
-        }
 
-        private void KiesLijst_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void btnMeubilair_Click(object sender, EventArgs e)
         {
+            lijstId = "meubels";
             Game frmGame0 = new Game();
             frmGame0.Show();
         }
 
-        private void btnRandom_Click(object sender, EventArgs e)
-        {
 
+        private void btnEten_Click(object sender, EventArgs e)
+        {
+            lijstId = "eten";
+            Game frmGame0 = new Game();
+            frmGame0.Show();
+        }
+
+        private void btnKledij_Click(object sender, EventArgs e)
+        {
+            lijstId = "kledij";
+            Game frmGame0 = new Game();
+            frmGame0.Show();
+        }
+
+        private void btnDieren_Click(object sender, EventArgs e)
+        {
+            lijstId = "dieren";
+            Game frmGame0 = new Game();
+            frmGame0.Show();
+        }
+
+        private void btnLichaamsdelen_Click(object sender, EventArgs e)
+        {
+            lijstId = "lichaamsD";
+            Game frmGame0 = new Game();
+            frmGame0.Show();
+        }
+
+        private void btnGrieksAlfabet_Click(object sender, EventArgs e)
+        {
+            lijstId = "grAlfabet";
+            Game frmGame0 = new Game();
+            frmGame0.Show();
         }
     }
 }
