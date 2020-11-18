@@ -27,6 +27,7 @@ namespace galgje
         public static string[] lstAlfabetGr = new string[10];
         private void KiesLijst_Load(object sender, EventArgs e)
         {
+            lblWhitespace.Text = "";
             //arrey van het meubilair
             meubilair[0] = "tafel";
             meubilair[1] = "stoel";
@@ -170,8 +171,19 @@ namespace galgje
         private void btnGrieksAlfabet_Click(object sender, EventArgs e)
         {
             lijstId = "grAlfabet";
+
             Game frmGame0 = new Game();
             frmGame0.Show();
+        }
+
+        private void KiesLijst_Activated(object sender, EventArgs e)
+        {
+            if (Game.opnieuw)
+            {
+                Game frmGame0 = new Game();
+                frmGame0.Show();
+                Game.opnieuw = false;
+            }
         }
     }
 }
