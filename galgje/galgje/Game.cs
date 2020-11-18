@@ -156,6 +156,7 @@ namespace galgje
                         pb1Leven.Visible = false;
                         pbDood.Visible = true;
                         gameOver();
+                        lblWoord.Text = woord;
                         MessageBox.Show("U hebt helaas verloren" + Environment.NewLine + "Om een nieuwe game te starten met dezefde lijst drukt u op \"opnieuw\"","Verloren...",MessageBoxButtons.OK,MessageBoxIcon.Information);
                         break;
                     default:
