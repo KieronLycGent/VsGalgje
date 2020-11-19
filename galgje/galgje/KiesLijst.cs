@@ -184,6 +184,11 @@ namespace galgje
                 frmGame0.Show();
                 Game.opnieuw = false;
             }
+            if (Game.end)
+            {
+                Game.end = false;
+                this.Close();                
+            }
         }
     }
 }

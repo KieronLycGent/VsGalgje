@@ -26,6 +26,7 @@ namespace galgje
         public static char chosenLetter;
         public static int levens;
         public static bool opnieuw = false;
+        public static bool end = false;
         private void testToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -35,6 +36,8 @@ namespace galgje
         {
             levens = 9;
             btnOpnieuw.Visible = false;
+            btnKies.Visible = false;
+            btnHome.Visible = false;
             string[] woordenlst;
             switch (KiesLijst.lijstId)
             {
@@ -157,7 +160,7 @@ namespace galgje
                         pbDood.Visible = true;
                         gameOver();
                         lblWoord.Text = woord;
-                        MessageBox.Show("U hebt helaas verloren" + Environment.NewLine + "Om een nieuwe game te starten met dezefde lijst drukt u op \"opnieuw\"","Verloren...",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                        MessageBox.Show("U hebt helaas verloren...","Verloren...",MessageBoxButtons.OK,MessageBoxIcon.Information);
                         break;
                     default:
                         pb9Levens.Visible = true;
@@ -176,7 +179,7 @@ namespace galgje
             if (winCheck())
             {
                 gameOver();
-                MessageBox.Show("U hebt gewonnen!" + Environment.NewLine + "Om een nieuwe game te starten met dezefde lijst drukt u op \"opnieuw\"", "Gewonnen!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("U hebt gewonnen!", "Gewonnen!", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
         }
@@ -210,6 +213,8 @@ namespace galgje
             btnY.Visible = false;
             btnZ.Visible = false;
             btnOpnieuw.Visible = true;
+            btnKies.Visible = true;
+            btnHome.Visible = true;
         }
 
         private void btnA_Click(object sender, EventArgs e)
@@ -404,6 +409,18 @@ namespace galgje
         private void pb9Levens_Click(object sender, EventArgs e)
         {
             label1.Visible = true;
+        }
+
+        private void BtnKies_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BtnHome_Click(object sender, EventArgs e)
+        {
+            end = true;
+            this.Hide();
+            this.Close();
         }
     }
 }

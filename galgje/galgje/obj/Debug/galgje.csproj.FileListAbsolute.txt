@@ -77,3 +77,17 @@ D:\school 6ib\C#\project2\VsGalgje\galgje\galgje\obj\Debug\galgje.csproj.Generat
 D:\school 6ib\C#\project2\VsGalgje\galgje\galgje\obj\Debug\galgje.csproj.CoreCompileInputs.cache
 D:\school 6ib\C#\project2\VsGalgje\galgje\galgje\obj\Debug\galgje.exe
 D:\school 6ib\C#\project2\VsGalgje\galgje\galgje\obj\Debug\galgje.pdb
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\bin\Debug\galgje.exe.config
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\bin\Debug\galgje.exe
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\bin\Debug\galgje.pdb
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.csprojAssemblyReference.cache
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.Home.resources
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.Game.resources
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.KiesLijst.resources
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.Lijsten.resources
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.Properties.Resources.resources
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.Toevoegen.resources
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.csproj.GenerateResource.cache
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.csproj.CoreCompileInputs.cache
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.exe
+C:\Users\gooss\OneDrive\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\obj\Debug\galgje.pdb
