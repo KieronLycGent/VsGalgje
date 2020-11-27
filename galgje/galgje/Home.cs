@@ -31,5 +31,11 @@ namespace galgje
         {
             Interaction.MsgBox("Dit programma is geschreven door Sepp Degroote, Kieron Parmentier en Rein Goossens, uit 6IB");
         }
+
+        private void BtnOpties_Click(object sender, EventArgs e)
+        {
+            frmLijsten frmLijsten0 = new frmLijsten();
+            frmLijsten0.Show();
+        }
     }
 }

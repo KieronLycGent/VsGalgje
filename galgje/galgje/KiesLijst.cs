@@ -25,6 +25,7 @@ namespace galgje
         public static string[] dieren = new string[10];
         public static string[] lichaamsdelen = new string[10];
         public static string[] lstAlfabetGr = new string[10];
+        Random rand = new Random();
         private void KiesLijst_Load(object sender, EventArgs e)
         {
             lblWhitespace.Text = "";
@@ -84,7 +85,7 @@ namespace galgje
             dieren[4] = "ezel";
             dieren[5] = "varken";
             dieren[6] = "kip";
-            dieren[7] = "pouw";
+            dieren[7] = "pauw";
             dieren[8] = "haai";
             dieren[9] = "walvis";
             //arrey van het dieren in listbox zetten
@@ -129,7 +130,45 @@ namespace galgje
 
         private void btnRandom_Click(object sender, EventArgs e)
         {
-
+            int rng = rand.Next(6);
+            switch(rng)
+            {
+                case 1:
+                    lijstId = "meubels";
+                    Game frmGame1 = new Game();
+                    frmGame1.Show();
+                    break;
+                case 2:
+                    lijstId = "eten";
+                    Game frmGame2 = new Game();
+                    frmGame2.Show();
+                    break;
+                case 3:
+                    lijstId = "kledij";
+                    Game frmGame3 = new Game();
+                    frmGame3.Show();
+                    break;
+                case 4:
+                    lijstId = "dieren";
+                    Game frmGame4 = new Game();
+                    frmGame4.Show();
+                    break;
+                case 5:
+                    lijstId = "lichaamsD";
+                    Game frmGame5 = new Game();
+                    frmGame5.Show();
+                    break;
+                case 6:
+                    lijstId = "grAlfabet";
+                    Game frmGame6 = new Game();
+                    frmGame6.Show();
+                    break;
+                default:
+                    lijstId = "meubels";
+                    Game frmGame7 = new Game();
+                    frmGame7.Show();
+                    break;
+            }
         }
 
         private void btnMeubilair_Click(object sender, EventArgs e)
@@ -189,6 +228,17 @@ namespace galgje
                 Game.end = false;
                 this.Close();                
             }
+        }
+
+        private void BtnCustom1_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+        private void BtnCustom2_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

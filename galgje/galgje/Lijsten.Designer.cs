@@ -1,6 +1,6 @@
 ﻿namespace galgje
 {
-    partial class Lijsten
+    partial class frmLijsten
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lijsten));
-            this.lblWhitespace = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLijsten));
             this.btnLichaamsdelen = new System.Windows.Forms.Button();
             this.btnCustom2 = new System.Windows.Forms.Button();
             this.lstLichaamsdelen = new System.Windows.Forms.ListBox();
@@ -46,16 +45,8 @@
             this.lstKledij = new System.Windows.Forms.ListBox();
             this.lstEten = new System.Windows.Forms.ListBox();
             this.lstMeubilair = new System.Windows.Forms.ListBox();
+            this.btnTerug = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // lblWhitespace
-            // 
-            this.lblWhitespace.AutoSize = true;
-            this.lblWhitespace.Location = new System.Drawing.Point(207, 469);
-            this.lblWhitespace.Name = "lblWhitespace";
-            this.lblWhitespace.Size = new System.Drawing.Size(291, 17);
-            this.lblWhitespace.TabIndex = 48;
-            this.lblWhitespace.Text = "test zodat ik het label nie opniew kwijt geraak";
             // 
             // btnLichaamsdelen
             // 
@@ -77,6 +68,7 @@
             this.btnCustom2.TabIndex = 46;
             this.btnCustom2.Text = "Custom2";
             this.btnCustom2.UseVisualStyleBackColor = true;
+            this.btnCustom2.Click += new System.EventHandler(this.BtnCustom2_Click);
             // 
             // lstLichaamsdelen
             // 
@@ -118,6 +110,7 @@
             this.btnCustom1.TabIndex = 42;
             this.btnCustom1.Text = "Custom 1";
             this.btnCustom1.UseVisualStyleBackColor = true;
+            this.btnCustom1.Click += new System.EventHandler(this.BtnCustom1_Click);
             // 
             // btnKledij
             // 
@@ -129,6 +122,7 @@
             this.btnKledij.TabIndex = 41;
             this.btnKledij.Text = "Kledij";
             this.btnKledij.UseVisualStyleBackColor = true;
+            this.btnKledij.Click += new System.EventHandler(this.BtnKledij_Click);
             // 
             // btnEten
             // 
@@ -223,12 +217,22 @@
             this.lstMeubilair.Size = new System.Drawing.Size(153, 180);
             this.lstMeubilair.TabIndex = 32;
             // 
-            // Lijsten
+            // btnTerug
+            // 
+            this.btnTerug.Location = new System.Drawing.Point(14, 461);
+            this.btnTerug.Name = "btnTerug";
+            this.btnTerug.Size = new System.Drawing.Size(665, 32);
+            this.btnTerug.TabIndex = 48;
+            this.btnTerug.Text = "Terug naar home";
+            this.btnTerug.UseVisualStyleBackColor = true;
+            this.btnTerug.Click += new System.EventHandler(this.BtnTerug_Click);
+            // 
+            // frmLijsten
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(705, 492);
-            this.Controls.Add(this.lblWhitespace);
+            this.ClientSize = new System.Drawing.Size(705, 505);
+            this.Controls.Add(this.btnTerug);
             this.Controls.Add(this.btnLichaamsdelen);
             this.Controls.Add(this.btnCustom2);
             this.Controls.Add(this.lstLichaamsdelen);
@@ -247,17 +251,14 @@
             this.Controls.Add(this.lstMeubilair);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Lijsten";
+            this.Name = "frmLijsten";
             this.Text = "Lijsten";
             this.Load += new System.EventHandler(this.Lijsten_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblWhitespace;
         private System.Windows.Forms.Button btnLichaamsdelen;
         private System.Windows.Forms.Button btnCustom2;
         private System.Windows.Forms.ListBox lstLichaamsdelen;
@@ -274,5 +275,6 @@
         private System.Windows.Forms.ListBox lstKledij;
         private System.Windows.Forms.ListBox lstEten;
         private System.Windows.Forms.ListBox lstMeubilair;
+        private System.Windows.Forms.Button btnTerug;
     }
 }
