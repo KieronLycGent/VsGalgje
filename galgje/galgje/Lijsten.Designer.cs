@@ -50,7 +50,6 @@
             // 
             // btnLichaamsdelen
             // 
-            this.btnLichaamsdelen.Enabled = false;
             this.btnLichaamsdelen.Location = new System.Drawing.Point(174, 237);
             this.btnLichaamsdelen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLichaamsdelen.Name = "btnLichaamsdelen";
@@ -92,7 +91,6 @@
             // 
             // btnGrieksAlfabet
             // 
-            this.btnGrieksAlfabet.Enabled = false;
             this.btnGrieksAlfabet.Location = new System.Drawing.Point(334, 237);
             this.btnGrieksAlfabet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGrieksAlfabet.Name = "btnGrieksAlfabet";
@@ -114,7 +112,6 @@
             // 
             // btnKledij
             // 
-            this.btnKledij.Enabled = false;
             this.btnKledij.Location = new System.Drawing.Point(334, 11);
             this.btnKledij.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnKledij.Name = "btnKledij";
@@ -126,7 +123,6 @@
             // 
             // btnEten
             // 
-            this.btnEten.Enabled = false;
             this.btnEten.Location = new System.Drawing.Point(174, 11);
             this.btnEten.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEten.Name = "btnEten";
@@ -137,7 +133,6 @@
             // 
             // btnMeubilair
             // 
-            this.btnMeubilair.Enabled = false;
             this.btnMeubilair.Location = new System.Drawing.Point(14, 11);
             this.btnMeubilair.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMeubilair.Name = "btnMeubilair";
@@ -148,7 +143,6 @@
             // 
             // btnDieren
             // 
-            this.btnDieren.Enabled = false;
             this.btnDieren.Location = new System.Drawing.Point(14, 237);
             this.btnDieren.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDieren.Name = "btnDieren";

@@ -286,26 +286,26 @@ namespace galgje
             switch (KiesLijst.lijstId)
             {
                 case "meubels":
-                    woordenlst = KiesLijst.meubilair;
+                    woordenlst = Home.meubilair;
                     break;
                 case "eten":
-                    woordenlst = KiesLijst.eten;
+                    woordenlst = Home.eten;
                     break;
                 case "kledij":
-                    woordenlst = KiesLijst.kledij;
+                    woordenlst = Home.kledij;
                     break;
                 case "dieren":
-                    woordenlst = KiesLijst.dieren;
+                    woordenlst = Home.dieren;
                     break;
                 case "lichaamsD":
-                    woordenlst = KiesLijst.lichaamsdelen;
+                    woordenlst = Home.lichaamsdelen;
                     break;
                 case "grAlfabet":
-                    woordenlst = KiesLijst.lstAlfabetGr;
+                    woordenlst = Home.lstAlfabetGr;
                     break;
                 default:
                     //Stel dat er een probleem is met de code dan default het programma naar meubilair.
-                    woordenlst = KiesLijst.meubilair;
+                    woordenlst = Home.meubilair;
                     break;  
             }
             rng = random.Next(10);

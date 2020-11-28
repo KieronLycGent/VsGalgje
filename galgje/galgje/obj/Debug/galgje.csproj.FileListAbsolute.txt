@@ -42,9 +42,7 @@ D:\school 6ib\C#\test voor projecten\galgje\galgje\bin\Debug\galgje.pdb
 D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.Home.resources
 D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.Game.resources
 D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.KiesLijst.resources
-D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.Lijsten.resources
 D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.Properties.Resources.resources
-D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.Toevoegen.resources
 D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.csproj.GenerateResource.cache
 D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.csproj.CoreCompileInputs.cache
 D:\School\6IB\Software\CSharp\VsGalgje\a\galgje\galgje\bin\Debug\galgje.exe.config
@@ -106,3 +104,5 @@ C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\VsGalgje\galgje\galgje\
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.KiesLijst.resources
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.frmLijsten.resources
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.frmToevoegen.resources
+D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.frmLijsten.resources
+D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.frmToevoegen.resources

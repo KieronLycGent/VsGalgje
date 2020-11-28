@@ -5,8 +5,10 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace galgje
 {
@@ -19,7 +21,19 @@ namespace galgje
 
         private void BtnToevoegen_Click(object sender, EventArgs e)
         {
-            
+            string woord = txtwoord.Text;
+            if (!Regex.IsMatch(woord, @"^[a-z]+$"))
+            {
+                MessageBox.Show("Het woord kan alleen tekens uit het alfabet gebruiken.", "Er ging iets fout",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtwoord.Focus();
+            }
+            else 
+            {
+                lbLijst.Items.Add(woord);
+                txtwoord.Text = "";
+                txtwoord.Focus();
+            }
+
         }
 
         private void Txtwoord_TextChanged(object sender, EventArgs e)

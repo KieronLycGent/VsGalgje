@@ -20,19 +20,58 @@ namespace galgje
         public static string[] lstAlfabetGr = new string[10];
         public static int lijst;
 
+        String[] meubilair;
+        String[] eten;
+        String[] kledij;
+        String[] dieren;
+        String[] lichaamsdelen;
+        String[] grieksalfabet;
+        
 
         private void Lijsten_Load(object sender, EventArgs e)
         {
-            lstAlfabetGr[0] = "alfa";
-            lstAlfabetGr[1] = "beta";
-            lstAlfabetGr[2] = "omega";
-            lstAlfabetGr[3] = "theta";
-            lstAlfabetGr[4] = "delta";
-            lstAlfabetGr[5] = "gamma";
-            lstAlfabetGr[6] = "sigma";
-            lstAlfabetGr[7] = "mu";
-            lstAlfabetGr[8] = "psi";
-            lstAlfabetGr[9] = "tau";
+            //arrey meubilair aangeven
+            meubilair = Home.meubilair;
+            //arrey van het meubilair in listbox zetten
+            for (int i = 0; i < meubilair.Length; i++)
+            {
+                lstMeubilair.Items.Add(meubilair[i]);
+            }
+            //arrey eten aangeven
+            eten = Home.eten;
+            //arrey van het eten in listbox zetten
+            for (int i = 0; i < eten.Length; i++)
+            {
+                lstEten.Items.Add(eten[i]);
+            }
+            //arrey kledij aangeven
+            kledij = Home.kledij;
+            //arrey van het kledij in listbox zetten
+            for (int i = 0; i < kledij.Length; i++)
+            {
+                lstKledij.Items.Add(kledij[i]);
+            }
+            //arrey dieren aangeven
+            dieren = Home.dieren;
+            //arrey van het kledij in listbox zetten
+            for (int i = 0; i < dieren.Length; i++)
+            {
+                lstDieren.Items.Add(dieren[i]);
+            }
+            //arrey lichaamsdelen aangeven
+            lichaamsdelen = Home.lichaamsdelen;
+            //arrey van de lichaamsdelen in listbox zetten
+            for (int i = 0; i < lichaamsdelen.Length; i++)
+            {
+                lstLichaamsdelen.Items.Add(lichaamsdelen[i]);
+            }
+            //arrey grieksalfabet aangeven
+            grieksalfabet = Home.lstAlfabetGr;
+            //arrey van de lstGrieksAlfabet in listbox zetten
+            for (int i = 0; i < lstAlfabetGr.Length; i++)
+            {
+                lstGrieksAlfabet.Items.Add(grieksalfabet[i]);
+            }
         }
 
         private void BtnKledij_Click(object sender, EventArgs e)
