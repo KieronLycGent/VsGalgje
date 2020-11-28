@@ -27,6 +27,250 @@ namespace galgje
         public static int levens;
         public static bool opnieuw = false;
         public static bool end = false;
+        bool a,b,c,d,ee,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z =false;
+
+        private void pctQ_Click(object sender, EventArgs e)
+        {
+            if (!q)
+            {
+                chosenLetter = 'q';
+                btnFunctie(chosenLetter);
+                pctQ.Image = Properties.Resources.grafsteenNa1;
+                q = true;
+            }
+        }
+
+        private void pctR_Click(object sender, EventArgs e)
+        {
+            if (!r)
+            {
+                chosenLetter = 'r';
+                btnFunctie(chosenLetter);
+                pctR.Image = Properties.Resources.grafsteenNa1;
+                r = true;
+            }
+        }
+
+        private void pctS_Click(object sender, EventArgs e)
+        {
+            if (!s)
+            {
+                chosenLetter = 's';
+                btnFunctie(chosenLetter);
+                pctS.Image = Properties.Resources.grafsteenNa1;
+                s = true;
+            }
+        }
+
+        private void pctT_Click(object sender, EventArgs e)
+        {
+            if (!t)
+            {
+                chosenLetter = 't';
+                btnFunctie(chosenLetter);
+                pctT.Image = Properties.Resources.grafsteenNa1;
+                t = true;
+            }
+        }
+
+        private void pctU_Click(object sender, EventArgs e)
+        {
+            if (!u)
+            {
+                chosenLetter = 'u';
+                btnFunctie(chosenLetter);
+                pctU.Image = Properties.Resources.grafsteenNa1;
+                u = true;
+            }
+        }
+
+        private void pctV_Click(object sender, EventArgs e)
+        {
+            if (!v)
+            {
+                chosenLetter = 'v';
+                btnFunctie(chosenLetter);
+                pctV.Image = Properties.Resources.grafsteenNa1;
+                v = true;
+            }
+        }
+
+        private void pctW_Click(object sender, EventArgs e)
+        {
+            if (!w)
+            {
+                chosenLetter = 'w';
+                btnFunctie(chosenLetter);
+                pctW.Image = Properties.Resources.grafsteenNa1;
+                w = true;
+            }
+        }
+
+        private void pctX_Click(object sender, EventArgs e)
+        {
+            if (!x)
+            {
+                chosenLetter = 'x';
+                btnFunctie(chosenLetter);
+                pctX.Image = Properties.Resources.grafsteenNa1;
+                x = true;
+            }
+        }
+
+        private void pctY_Click(object sender, EventArgs e)
+        {
+            if (!y)
+            {
+                chosenLetter = 'y';
+                btnFunctie(chosenLetter);
+                pctY.Image = Properties.Resources.grafsteenNa1;
+                y = true;
+            }
+        }
+
+        private void pctZ_Click(object sender, EventArgs e)
+        {
+            if (!z)
+            {
+                chosenLetter = 'z';
+                btnFunctie(chosenLetter);
+                pctZ.Image = Properties.Resources.grafsteenNa1;
+                z = true;
+            }
+        }
+
+        private void pctP_Click(object sender, EventArgs e)
+        {
+            if (!p)
+            {
+                chosenLetter = 'p';
+                btnFunctie(chosenLetter);
+                pctP.Image = Properties.Resources.grafsteenNa1;
+                p = true;
+            }
+        }
+
+        private void pctO_Click(object sender, EventArgs e)
+        {
+            if (!o)
+            {
+                chosenLetter = 'o';
+                btnFunctie(chosenLetter);
+                pctO.Image = Properties.Resources.grafsteenNa1;
+                o = true;
+            }
+        }
+
+        private void pctN_Click(object sender, EventArgs e)
+        {
+            if (!n)
+            {
+                chosenLetter = 'n';
+                btnFunctie(chosenLetter);
+                pctN.Image = Properties.Resources.grafsteenNa1;
+                n = true;
+            }
+        }
+
+        private void pctM_Click(object sender, EventArgs e)
+        {
+            if (!m)
+            {
+                chosenLetter = 'm';
+                btnFunctie(chosenLetter);
+                pctM.Image = Properties.Resources.grafsteenNa1;
+                m = true;
+            }
+        }
+
+        private void pctL_Click(object sender, EventArgs e)
+        {
+            if (!l)
+            {
+                chosenLetter = 'l';
+                btnFunctie(chosenLetter);
+                pctL.Image = Properties.Resources.grafsteenNa1;
+                l = true;
+            }
+        }
+
+        private void pctK_Click(object sender, EventArgs e)
+        {
+            if (!k)
+            {
+                chosenLetter = 'k';
+                btnFunctie(chosenLetter);
+                pctK.Image = Properties.Resources.grafsteenNa1;
+                k = true;
+            }
+        }
+
+        private void pctJ_Click(object sender, EventArgs e)
+        {
+            if (!j)
+            {
+                chosenLetter = 'j';
+                btnFunctie(chosenLetter);
+                pctJ.Image = Properties.Resources.grafsteenNa1;
+                j = true;
+            }
+        }
+
+        private void pctI_Click(object sender, EventArgs e)
+        {
+            if (!i)
+            {
+                chosenLetter = 'i';
+                btnFunctie(chosenLetter);
+                pctI.Image = Properties.Resources.grafsteenNa1;
+                i = true;
+            }
+        }
+
+        private void pctH_Click(object sender, EventArgs e)
+        {
+            if (!h)
+            {
+                chosenLetter = 'h';
+                btnFunctie(chosenLetter);
+                pctH.Image = Properties.Resources.grafsteenNa1;
+                h = true;
+            }
+        }
+
+        private void pctG_Click(object sender, EventArgs e)
+        {
+            if (!g)
+            {
+                chosenLetter = 'g';
+                btnFunctie(chosenLetter);
+                pctG.Image = Properties.Resources.grafsteenNa1;
+                g = true;
+            }
+        }
+
+        private void pctF_Click(object sender, EventArgs e)
+        {
+            if (!f)
+            {
+                chosenLetter = 'f';
+                btnFunctie(chosenLetter);
+                pctF.Image = Properties.Resources.grafsteenNa1;
+                f = true;
+            }
+        }
+
+        private void pctE_Click(object sender, EventArgs e)
+        {
+            if (!ee)
+            {
+                chosenLetter = 'e';
+                btnFunctie(chosenLetter);
+                pctE.Image = Properties.Resources.grafsteenNa1;
+                ee = true;
+            }
+        }
+
         private void testToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -76,6 +320,33 @@ namespace galgje
                 galgjeChars[i] = Convert.ToChar(woord.Substring(i, 1));
                 lblWoord.Text = lblWoord.Text + "_ ";
             }
+
+            pctA.Image = Properties.Resources.A;
+            pctB.Image = Properties.Resources.B;
+            pctC.Image = Properties.Resources.C;
+            pctD.Image = Properties.Resources.D;
+            pctE.Image = Properties.Resources.E;
+            pctF.Image = Properties.Resources.F;
+            pctG.Image = Properties.Resources.G;
+            pctH.Image = Properties.Resources.H;
+            pctI.Image = Properties.Resources.I;
+            pctJ.Image = Properties.Resources.J;
+            pctK.Image = Properties.Resources.K;
+            pctL.Image = Properties.Resources.L;
+            pctM.Image = Properties.Resources.M;
+            pctN.Image = Properties.Resources.N;
+            pctO.Image = Properties.Resources.O;
+            pctP.Image = Properties.Resources.p;
+            pctQ.Image = Properties.Resources.Q;
+            pctR.Image = Properties.Resources.R;
+            pctS.Image = Properties.Resources.S;
+            pctT.Image = Properties.Resources.T;
+            pctU.Image = Properties.Resources.U;
+            pctV.Image = Properties.Resources.V;
+            pctW.Image = Properties.Resources.W;
+            pctX.Image = Properties.Resources.X;
+            pctY.Image = Properties.Resources.Y;
+            pctZ.Image = Properties.Resources.Z;
         }
 
         private bool winCheck()
@@ -186,217 +457,60 @@ namespace galgje
         //heb hier een functie van gemaakt voor overzicht: maakt alle bt
         private void gameOver()
         {
-            btnA.Visible = false;
-            btnB.Visible = false;
-            btnC.Visible = false;
-            btnD.Visible = false;
-            btnE.Visible = false;
-            btnF.Visible = false;
-            btnG.Visible = false;
-            btnH.Visible = false;
-            btnI.Visible = false;
-            btnJ.Visible = false;
-            btnK.Visible = false;
-            btnL.Visible = false;
-            btnM.Visible = false;
-            btnN.Visible = false;
-            btnO.Visible = false;
-            btnP.Visible = false;
-            btnQ.Visible = false;
-            btnR.Visible = false;
-            btnS.Visible = false;
-            btnT.Visible = false;
-            btnU.Visible = false;
-            btnV.Visible = false;
-            btnW.Visible = false;
-            btnX.Visible = false;
-            btnY.Visible = false;
-            btnZ.Visible = false;
             btnOpnieuw.Visible = true;
             btnKies.Visible = true;
             btnHome.Visible = true;
+
+            pctA.Image = Properties.Resources.grafsteenNa1;
+            pctB.Image = Properties.Resources.grafsteenNa1;
+            pctC.Image = Properties.Resources.grafsteenNa1;
+            pctD.Image = Properties.Resources.grafsteenNa1;
+            pctE.Image = Properties.Resources.grafsteenNa1;
+            pctF.Image = Properties.Resources.grafsteenNa1;
+            pctG.Image = Properties.Resources.grafsteenNa1;
+            pctH.Image = Properties.Resources.grafsteenNa1;
+            pctI.Image = Properties.Resources.grafsteenNa1;
+            pctJ.Image = Properties.Resources.grafsteenNa1;
+            pctK.Image = Properties.Resources.grafsteenNa1;
+            pctL.Image = Properties.Resources.grafsteenNa1;
+            pctM.Image = Properties.Resources.grafsteenNa1;
+            pctN.Image = Properties.Resources.grafsteenNa1;
+            pctO.Image = Properties.Resources.grafsteenNa1;
+            pctP.Image = Properties.Resources.grafsteenNa1;
+            pctQ.Image = Properties.Resources.grafsteenNa1;
+            pctR.Image = Properties.Resources.grafsteenNa1;
+            pctS.Image = Properties.Resources.grafsteenNa1;
+            pctT.Image = Properties.Resources.grafsteenNa1;
+            pctU.Image = Properties.Resources.grafsteenNa1;
+            pctV.Image = Properties.Resources.grafsteenNa1;
+            pctW.Image = Properties.Resources.grafsteenNa1;
+            pctX.Image = Properties.Resources.grafsteenNa1;
+            pctY.Image = Properties.Resources.grafsteenNa1;
+            pctZ.Image = Properties.Resources.grafsteenNa1;
+
+            
         }
 
-        private void btnA_Click(object sender, EventArgs e)
+        private void pctC_Click(object sender, EventArgs e)
         {
-            chosenLetter = 'a';
-            btnFunctie(chosenLetter);
-            btnA.Visible = false;
+            if (!c)
+            {
+                chosenLetter = 'c';
+                btnFunctie(chosenLetter);
+                pctC.Image = Properties.Resources.grafsteenNa1;
+                c = true;
+            }
         }
 
-        private void btnB_Click(object sender, EventArgs e)
+        private void pctD_Click(object sender, EventArgs e)
         {
-            chosenLetter = 'b';
-            btnFunctie(chosenLetter);
-            btnB.Visible = false;
-        }
-
-        private void btnC_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'c';
-            btnFunctie(chosenLetter);
-            btnC.Visible = false;
-        }
-
-        private void btnD_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'd';
-            btnFunctie(chosenLetter);
-            btnD.Visible = false;
-        }
-
-        private void btnE_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'e';
-            btnFunctie(chosenLetter);
-            btnE.Visible = false;
-        }
-
-        private void btnF_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'f';
-            btnFunctie(chosenLetter);
-            btnF.Visible = false;
-        }
-
-        private void btnG_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'g';
-            btnFunctie(chosenLetter);
-            btnG.Visible = false;
-        }
-
-        private void btnH_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'h';
-            btnFunctie(chosenLetter);
-            btnH.Visible = false;
-        }
-
-        private void btnI_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'i';
-            btnFunctie(chosenLetter);
-            btnI.Visible = false;
-        }
-
-        private void btnJ_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'j';
-            btnFunctie(chosenLetter);
-            btnJ.Visible = false;
-        }
-
-        private void btnK_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'k';
-            btnFunctie(chosenLetter);
-            btnK.Visible = false;
-        }
-
-        private void btnL_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'l';
-            btnFunctie(chosenLetter);
-            btnL.Visible = false;
-        }
-
-        private void btnM_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'm';
-            btnFunctie(chosenLetter);
-            btnM.Visible = false;
-        }
-
-        private void btnN_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'n';
-            btnFunctie(chosenLetter);
-            btnN.Visible = false;
-        }
-
-        private void btnO_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'o';
-            btnFunctie(chosenLetter);
-            btnO.Visible = false;
-        }
-
-        private void btnP_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'p';
-            btnFunctie(chosenLetter);
-            btnP.Visible = false;
-        }
-
-        private void btnQ_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'q';
-            btnFunctie(chosenLetter);
-            btnQ.Visible = false;
-        }
-
-        private void btnR_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'r';
-            btnFunctie(chosenLetter);
-            btnR.Visible = false;
-        }
-
-        private void btnS_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 's';
-            btnFunctie(chosenLetter);
-            btnS.Visible = false;
-        }
-
-        private void btnT_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 't';
-            btnFunctie(chosenLetter);
-            btnT.Visible = false;
-        }
-
-        private void btnU_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'u';
-            btnFunctie(chosenLetter);
-            btnU.Visible = false;
-        }
-
-        private void btnV_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'v';
-            btnFunctie(chosenLetter);
-            btnV.Visible = false;
-        }
-
-        private void btnW_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'w';
-            btnFunctie(chosenLetter);
-            btnW.Visible = false;
-        }
-
-        private void btnX_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'x';
-            btnFunctie(chosenLetter);
-            btnX.Visible = false;
-        }
-
-        private void btnY_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'y';
-            btnFunctie(chosenLetter);
-            btnY.Visible = false;
-        }
-
-        private void btnZ_Click(object sender, EventArgs e)
-        {
-            chosenLetter = 'z';
-            btnFunctie(chosenLetter);
-            btnZ.Visible = false;
+            if (!d)
+            {
+                chosenLetter = 'd';
+                btnFunctie(chosenLetter);
+                pctD.Image = Properties.Resources.grafsteenNa1;
+                d = true;
+            }
         }
 
         private void btnOpnieuw_Click(object sender, EventArgs e)
@@ -421,6 +535,28 @@ namespace galgje
             end = true;
             this.Hide();
             this.Close();
+        }
+
+        private void pctA_Click_1(object sender, EventArgs e)
+        {
+            if(!a)
+            {
+                chosenLetter = 'a';
+                btnFunctie(chosenLetter);
+                pctA.Image = Properties.Resources.grafsteenNa1;
+                a = true;
+            }
+        }
+
+        private void pctB_Click(object sender, EventArgs e)
+        {
+            if (!b)
+            {
+                chosenLetter = 'b';
+                btnFunctie(chosenLetter);
+                pctB.Image = Properties.Resources.grafsteenNa1;
+                b = true;
+            }
         }
     }
 }
