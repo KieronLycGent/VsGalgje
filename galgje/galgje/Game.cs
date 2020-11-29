@@ -288,27 +288,27 @@ namespace galgje
             {
                 case "meubels":
                     woordenlst = Home.meubilair;
-                    existence = 11;
+                    existence = 10;
                     break;
                 case "eten":
                     woordenlst = Home.eten;
-                    existence = 11;
+                    existence = 10;
                     break;
                 case "kledij":
                     woordenlst = Home.kledij;
-                    existence = 11;
+                    existence = 10;
                     break;
                 case "dieren":
                     woordenlst = Home.dieren;
-                    existence = 11;
+                    existence = 10;
                     break;
                 case "lichaamsD":
                     woordenlst = Home.lichaamsdelen;
-                    existence = 11;
+                    existence = 10;
                     break;
                 case "grAlfabet":
                     woordenlst = Home.lstAlfabetGr;
-                    existence = 11;
+                    existence = 10;
                     break;
                 case "C1":
                     woordenlst = new string[10];
