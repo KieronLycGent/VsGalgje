@@ -106,3 +106,17 @@ D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.frmLijsten.resources
 D:\school 6ib\C#\project2\galgje\galgje\obj\Debug\galgje.frmToevoegen.resources
 D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.frmLijsten.resources
 D:\school 6ib\C#\test voor projecten\galgje\galgje\obj\Debug\galgje.frmToevoegen.resources
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\bin\Debug\galgje.exe.config
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\bin\Debug\galgje.exe
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\bin\Debug\galgje.pdb
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.csprojAssemblyReference.cache
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.Home.resources
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.Game.resources
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.KiesLijst.resources
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.frmLijsten.resources
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.Properties.Resources.resources
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.frmToevoegen.resources
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.csproj.GenerateResource.cache
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.csproj.CoreCompileInputs.cache
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.exe
+C:\Users\gooss\Documents\Lyceum\ToegepasteInformatica\C#\galgje\galgje\obj\Debug\galgje.pdb

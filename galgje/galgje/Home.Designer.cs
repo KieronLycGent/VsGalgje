@@ -31,8 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.testToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnOpties = new System.Windows.Forms.Button();
             this.pctStartSpel = new System.Windows.Forms.PictureBox();
@@ -57,32 +55,18 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.testToolStripMenuItem,
-            this.testToolStripMenuItem1,
             this.infoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(925, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(925, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // testToolStripMenuItem
-            // 
-            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
-            this.testToolStripMenuItem.Text = "Test";
-            // 
-            // testToolStripMenuItem1
-            // 
-            this.testToolStripMenuItem1.Name = "testToolStripMenuItem1";
-            this.testToolStripMenuItem1.Size = new System.Drawing.Size(49, 24);
-            this.testToolStripMenuItem1.Text = "Test";
             // 
             // infoToolStripMenuItem
             // 
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
-            this.infoToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.infoToolStripMenuItem.Size = new System.Drawing.Size(49, 26);
             this.infoToolStripMenuItem.Text = "info";
             this.infoToolStripMenuItem.Click += new System.EventHandler(this.infoToolStripMenuItem_Click);
             // 
@@ -120,7 +104,7 @@
             // 
             // pctJ
             // 
-            this.pctJ.Location = new System.Drawing.Point(432, 49);
+            this.pctJ.Location = new System.Drawing.Point(432, 40);
             this.pctJ.Name = "pctJ";
             this.pctJ.Size = new System.Drawing.Size(99, 95);
             this.pctJ.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -130,7 +114,7 @@
             // 
             // pctG2
             // 
-            this.pctG2.Location = new System.Drawing.Point(327, 49);
+            this.pctG2.Location = new System.Drawing.Point(327, 65);
             this.pctG2.Name = "pctG2";
             this.pctG2.Size = new System.Drawing.Size(99, 95);
             this.pctG2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -140,7 +124,7 @@
             // 
             // pctL
             // 
-            this.pctL.Location = new System.Drawing.Point(222, 49);
+            this.pctL.Location = new System.Drawing.Point(222, 53);
             this.pctL.Name = "pctL";
             this.pctL.Size = new System.Drawing.Size(99, 95);
             this.pctL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -150,7 +134,7 @@
             // 
             // pctA
             // 
-            this.pctA.Location = new System.Drawing.Point(117, 49);
+            this.pctA.Location = new System.Drawing.Point(117, 59);
             this.pctA.Name = "pctA";
             this.pctA.Size = new System.Drawing.Size(99, 95);
             this.pctA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -209,8 +193,6 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;
         private System.Windows.Forms.Button btnOpties;
         private System.Windows.Forms.PictureBox pctG;

@@ -18,7 +18,7 @@ namespace galgje
         {
             InitializeComponent();
         }
-
+        
         private void BtnToevoegen_Click(object sender, EventArgs e)
         {
             string woord = txtwoord.Text;
@@ -58,49 +58,95 @@ namespace galgje
 
         private void Toevoegen_Load(object sender, EventArgs e)
         {
+            if (frmLijsten.lijst == 1)
+            {
+                if (!System.IO.File.Exists("C1w1.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w1.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w2.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w2.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w3.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w3.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w4.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w4.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w5.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w5.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w6.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w6.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w7.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w7.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w8.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w8.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w9.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w9.txt", "");
+                }
+                if (!System.IO.File.Exists("C1w10.txt"))
+                {
+                    System.IO.File.WriteAllText("C1w10.txt", "");
+                }
+            }
+            else
+            {
+                if (!System.IO.File.Exists("C2w1.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w1.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w2.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w2.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w3.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w3.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w4.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w4.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w5.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w5.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w6.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w6.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w7.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w7.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w8.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w8.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w9.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w9.txt", "");
+                }
+                if (!System.IO.File.Exists("C2w10.txt"))
+                {
+                    System.IO.File.WriteAllText("C2w10.txt", "");
+                }
+            }
 
 
-
-            if (!System.IO.File.Exists("C1w1.txt"))
-            {
-                System.IO.File.WriteAllText("C1w1.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w2.txt"))
-            {
-                System.IO.File.WriteAllText("C1w2.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w3.txt"))
-            {
-                System.IO.File.WriteAllText("C1w3.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w4.txt"))
-            {
-                System.IO.File.WriteAllText("C1w4.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w5.txt"))
-            {
-                System.IO.File.WriteAllText("C1w5.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w6.txt"))
-            {
-                System.IO.File.WriteAllText("C1w6.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w7.txt"))
-            {
-                System.IO.File.WriteAllText("C1w7.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w8.txt"))
-            {
-                System.IO.File.WriteAllText("C1w8.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w9.txt"))
-            {
-                System.IO.File.WriteAllText("C1w9.txt", "");
-            }
-            if (!System.IO.File.Exists("C1w10.txt"))
-            {
-                System.IO.File.WriteAllText("C1w10.txt", "");
-            }
+            
         }
 
         private void BtnTerug_Click(object sender, EventArgs e)
