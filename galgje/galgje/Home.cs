@@ -26,10 +26,7 @@ namespace galgje
         public static string[] dieren = new string[10];
         public static string[] lichaamsdelen = new string[10];
         public static string[] lstAlfabetGr = new string[10];
-        private void button1_Click(object sender, EventArgs e)
-        {
-             
-        }
+        int kapot = 0;
 
         private void infoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -44,6 +41,91 @@ namespace galgje
 
         private void Home_Load(object sender, EventArgs e)
         {
+            if(!System.IO.File.Exists("C1w1.txt"))
+            {
+                System.IO.File.WriteAllText("C1w1.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w2.txt"))
+            {
+                System.IO.File.WriteAllText("C1w2.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w3.txt"))
+            {
+                System.IO.File.WriteAllText("C1w3.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w4.txt"))
+            {
+                System.IO.File.WriteAllText("C1w4.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w5.txt"))
+            {
+                System.IO.File.WriteAllText("C1w5.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w6.txt"))
+            {
+                System.IO.File.WriteAllText("C1w6.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w7.txt"))
+            {
+                System.IO.File.WriteAllText("C1w7.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w8.txt"))
+            {
+                System.IO.File.WriteAllText("C1w8.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w9.txt"))
+            {
+                System.IO.File.WriteAllText("C1w9.txt", "");
+            }
+            if(!System.IO.File.Exists("C1w10.txt"))
+            {
+                System.IO.File.WriteAllText("C1w10.txt", "");
+            }
+
+            if (!System.IO.File.Exists("C2w1.txt"))
+            {
+                System.IO.File.WriteAllText("C2w1.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w2.txt"))
+            {
+                System.IO.File.WriteAllText("C2w2.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w3.txt"))
+            {
+                System.IO.File.WriteAllText("C2w3.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w4.txt"))
+            {
+                System.IO.File.WriteAllText("C2w4.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w5.txt"))
+            {
+                System.IO.File.WriteAllText("C2w5.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w5.txt"))
+            {
+                System.IO.File.WriteAllText("C2w5.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w6.txt"))
+            {
+                System.IO.File.WriteAllText("C2w6.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w7.txt"))
+            {
+                System.IO.File.WriteAllText("C2w7.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w8.txt"))
+            {
+                System.IO.File.WriteAllText("C2w8.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w9.txt"))
+            {
+                System.IO.File.WriteAllText("C2w9.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w10.txt"))
+            {
+                System.IO.File.WriteAllText("C2w10.txt", "");
+            }
             pctA.Image = Properties.Resources.A;
             pctE.Image = Properties.Resources.E;
             pctG.Image = Properties.Resources.G;
@@ -131,6 +213,8 @@ namespace galgje
             {
                 pctG.Image = Properties.Resources.grafsteenNa1;
                 g = true;
+                kapot++;
+                kapotCheck(kapot);
             }
         }
 
@@ -154,6 +238,8 @@ namespace galgje
             {
                 pctA.Image = Properties.Resources.grafsteenNa1;
                 a = true;
+                kapot++;
+                kapotCheck(kapot);
             }
         }
 
@@ -163,6 +249,8 @@ namespace galgje
             {
                 pctL.Image = Properties.Resources.grafsteenNa1;
                 l = true;
+                kapot++;
+                kapotCheck(kapot);
             }
         }
 
@@ -172,6 +260,8 @@ namespace galgje
             {
                 pctG2.Image = Properties.Resources.grafsteenNa1;
                 gg = true;
+                kapot++;
+                kapotCheck(kapot);
             }
         }
 
@@ -181,6 +271,8 @@ namespace galgje
             {
                 pctJ.Image = Properties.Resources.grafsteenNa1;
                 j = true;
+                kapot++;
+                kapotCheck(kapot);
             }
         }
 
@@ -190,6 +282,20 @@ namespace galgje
             {
                 pctE.Image = Properties.Resources.grafsteenNa1;
                 ee = true;
+                kapot++;
+                kapotCheck(kapot);
+            }
+        }
+
+        private void kapotCheck(int nr)
+        {
+            if(nr == 1)
+            {
+                MessageBox.Show("Moest dat nu echt?", "Vandaal!", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            }
+            else if(nr == 6)
+            {
+                MessageBox.Show("Nu blij?", "Vandaal!!!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

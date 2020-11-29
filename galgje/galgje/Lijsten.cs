@@ -72,6 +72,88 @@ namespace galgje
             {
                 lstGrieksAlfabet.Items.Add(grieksalfabet[i]);
             }
+            //custom lijst 1
+            if (System.IO.File.ReadAllText(@"C1w1.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w1.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w2.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w2.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w3.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w3.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w4.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w4.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w5.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w5.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w6.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w6.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w7.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w7.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w8.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w8.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w9.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w9.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w10.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w10.txt"));
+            }
+            //custom lijst 2
+            if (!System.IO.File.Exists("C2w1.txt"))
+            {
+                System.IO.File.WriteAllText("C2w1.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w2.txt"))
+            {
+                System.IO.File.WriteAllText("C2w2.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w3.txt"))
+            {
+                System.IO.File.WriteAllText("C2w3.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w4.txt"))
+            {
+                System.IO.File.WriteAllText("C2w4.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w5.txt"))
+            {
+                System.IO.File.WriteAllText("C2w5.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w6.txt"))
+            {
+                System.IO.File.WriteAllText("C2w6.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w7.txt"))
+            {
+                System.IO.File.WriteAllText("C2w7.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w8.txt"))
+            {
+                System.IO.File.WriteAllText("C2w8.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w9.txt"))
+            {
+                System.IO.File.WriteAllText("C2w9.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w10.txt"))
+            {
+                System.IO.File.WriteAllText("C2w10.txt", "");
+            }
         }
 
         private void BtnKledij_Click(object sender, EventArgs e)
@@ -96,6 +178,94 @@ namespace galgje
         private void BtnTerug_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmLijsten_Activated(object sender, EventArgs e)
+        {
+            //custom lijst 1
+            lstCustom1.Items.Clear();
+            if (System.IO.File.ReadAllText(@"C1w1.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w1.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w2.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w2.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w3.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w3.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w4.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w4.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w5.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w5.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w6.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w6.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w7.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w7.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w8.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w8.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w9.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w9.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w10.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w10.txt"));
+            }
+            //custom lijst 2
+            lstCustom2.Items.Clear();
+            if (!System.IO.File.Exists("C2w1.txt"))
+            {
+                System.IO.File.WriteAllText("C2w1.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w2.txt"))
+            {
+                System.IO.File.WriteAllText("C2w2.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w3.txt"))
+            {
+                System.IO.File.WriteAllText("C2w3.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w4.txt"))
+            {
+                System.IO.File.WriteAllText("C2w4.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w5.txt"))
+            {
+                System.IO.File.WriteAllText("C2w5.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w6.txt"))
+            {
+                System.IO.File.WriteAllText("C2w6.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w7.txt"))
+            {
+                System.IO.File.WriteAllText("C2w7.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w8.txt"))
+            {
+                System.IO.File.WriteAllText("C2w8.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w9.txt"))
+            {
+                System.IO.File.WriteAllText("C2w9.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w10.txt"))
+            {
+                System.IO.File.WriteAllText("C2w10.txt", "");
+            }
         }
     }
 }

@@ -20,6 +20,7 @@ namespace galgje
 
         Random random = new Random();
         int rng;
+        int existence = 0;
         string woord;
         public static bool[] charCorrect;
         public static char[] galgjeChars;
@@ -287,66 +288,191 @@ namespace galgje
             {
                 case "meubels":
                     woordenlst = Home.meubilair;
+                    existence = 11;
                     break;
                 case "eten":
                     woordenlst = Home.eten;
+                    existence = 11;
                     break;
                 case "kledij":
                     woordenlst = Home.kledij;
+                    existence = 11;
                     break;
                 case "dieren":
                     woordenlst = Home.dieren;
+                    existence = 11;
                     break;
                 case "lichaamsD":
                     woordenlst = Home.lichaamsdelen;
+                    existence = 11;
                     break;
                 case "grAlfabet":
                     woordenlst = Home.lstAlfabetGr;
+                    existence = 11;
+                    break;
+                case "C1":
+                    woordenlst = new string[10];
+                    if(System.IO.File.ReadAllText(@"C1w1.txt") != "")
+                    {
+                        woordenlst[0] = System.IO.File.ReadAllText(@"C1w1.txt");
+                        existence++;
+                    }
+                     if(System.IO.File.ReadAllText(@"C1w2.txt") != "")
+                    {
+                        woordenlst[1] = System.IO.File.ReadAllText(@"C1w2.txt");
+                        existence++;
+                    }
+                     if(System.IO.File.ReadAllText(@"C1w3.txt") != "")
+                    {
+                        woordenlst[2] = System.IO.File.ReadAllText(@"C1w3.txt");
+                        existence++;
+                    }
+                     if(System.IO.File.ReadAllText(@"C1w4.txt") != "")
+                    {
+                        woordenlst[3] = System.IO.File.ReadAllText(@"C1w4.txt");
+                        existence++;
+                    }
+                     if(System.IO.File.ReadAllText(@"C1w5.txt") != "")
+                    {
+                        woordenlst[4] = System.IO.File.ReadAllText(@"C1w5.txt");
+                        existence++;
+                    }
+                     if(System.IO.File.ReadAllText(@"C1w6.txt") != "")
+                    {
+                        woordenlst[5] = System.IO.File.ReadAllText(@"C1w6.txt");
+                        existence++;
+                    }
+                     if(System.IO.File.ReadAllText(@"C1w7.txt") != "")
+                    {
+                        woordenlst[6] = System.IO.File.ReadAllText(@"C1w7.txt");
+                        existence++;
+                    }
+                     if(System.IO.File.ReadAllText(@"C1w8.txt") != "")
+                    {
+                        woordenlst[7] = System.IO.File.ReadAllText(@"C1w8.txt");
+                        existence++;
+                    }
+                     if(System.IO.File.ReadAllText(@"C1w9.txt") != "")
+                    {
+                        woordenlst[8] = System.IO.File.ReadAllText(@"C1w9.txt");
+                        existence++;
+                    }
+                    if (System.IO.File.ReadAllText(@"C1w10.txt") != "")
+                    {
+                        woordenlst[9] = System.IO.File.ReadAllText(@"C1w10.txt");
+                        existence++;
+                    }
+                    break;
+                case "C2":
+                    woordenlst = new string[10];
+                    if (System.IO.File.ReadAllText(@"C2w1.txt") != "")
+                    {
+                        woordenlst[0] = System.IO.File.ReadAllText(@"C2w1.txt");
+                        existence++;
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w2.txt") != "")
+                    {
+                        woordenlst[1] = System.IO.File.ReadAllText(@"C2w2.txt");
+                        existence++;
+
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w3.txt") != "")
+                    {
+                        woordenlst[2] = System.IO.File.ReadAllText(@"C2w3.txt");
+                        existence++;
+
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w4.txt") != "")
+                    {
+                        woordenlst[3] = System.IO.File.ReadAllText(@"C2w4.txt");
+                        existence++;
+
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w5.txt") != "")
+                    {
+                        woordenlst[4] = System.IO.File.ReadAllText(@"C2w5.txt");
+                        existence++;
+
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w6.txt") != "")
+                    {
+                        woordenlst[5] = System.IO.File.ReadAllText(@"C2w6.txt");
+                        existence++;
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w7.txt") != "")
+                    {
+                        woordenlst[6] = System.IO.File.ReadAllText(@"C2w7.txt");
+                        existence++;
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w8.txt") != "")
+                    {
+                        woordenlst[7] = System.IO.File.ReadAllText(@"C2w8.txt");
+                        existence++;
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w9.txt") != "")
+                    {
+                        woordenlst[8] = System.IO.File.ReadAllText(@"C2w9.txt");
+                        existence++;
+                    }
+                    if (System.IO.File.ReadAllText(@"C2w10.txt") != "")
+                    {
+                        woordenlst[9] = System.IO.File.ReadAllText(@"C2w10.txt");
+                        existence++;
+                    }
                     break;
                 default:
                     //Stel dat er een probleem is met de code dan default het programma naar meubilair.
                     woordenlst = Home.meubilair;
                     break;  
             }
-            rng = random.Next(10);
+            rng = random.Next(existence);
             woord = woordenlst[rng];
-            label1.Text = woord;
-            charCorrect = new bool[woord.Length];
-            lblWoord.Text = "";
-            galgjeChars = new char[woord.Length];
-            for(int i = 0; i < woord.Length; i++)
+            if(woord == null)
             {
-                charCorrect[i] = false;
-                galgjeChars[i] = Convert.ToChar(woord.Substring(i, 1));
-                lblWoord.Text = lblWoord.Text + "_ ";
+                MessageBox.Show("De lijst is leeg.", "Lege lijst", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
             }
+            else
+            {
+                label1.Text = woord;
+                charCorrect = new bool[woord.Length];
+                lblWoord.Text = "";
+                galgjeChars = new char[woord.Length];
+                for (int i = 0; i < woord.Length; i++)
+                {
+                    charCorrect[i] = false;
+                    galgjeChars[i] = Convert.ToChar(woord.Substring(i, 1));
+                    lblWoord.Text = lblWoord.Text + "_ ";
+                }
 
-            pctA.Image = Properties.Resources.A;
-            pctB.Image = Properties.Resources.B;
-            pctC.Image = Properties.Resources.C;
-            pctD.Image = Properties.Resources.D;
-            pctE.Image = Properties.Resources.E;
-            pctF.Image = Properties.Resources.F;
-            pctG.Image = Properties.Resources.G;
-            pctH.Image = Properties.Resources.H;
-            pctI.Image = Properties.Resources.I;
-            pctJ.Image = Properties.Resources.J;
-            pctK.Image = Properties.Resources.K;
-            pctL.Image = Properties.Resources.L;
-            pctM.Image = Properties.Resources.M;
-            pctN.Image = Properties.Resources.N;
-            pctO.Image = Properties.Resources.O;
-            pctP.Image = Properties.Resources.p;
-            pctQ.Image = Properties.Resources.Q;
-            pctR.Image = Properties.Resources.R;
-            pctS.Image = Properties.Resources.S;
-            pctT.Image = Properties.Resources.T;
-            pctU.Image = Properties.Resources.U;
-            pctV.Image = Properties.Resources.V;
-            pctW.Image = Properties.Resources.W;
-            pctX.Image = Properties.Resources.X;
-            pctY.Image = Properties.Resources.Y;
-            pctZ.Image = Properties.Resources.Z;
+                pctA.Image = Properties.Resources.A;
+                pctB.Image = Properties.Resources.B;
+                pctC.Image = Properties.Resources.C;
+                pctD.Image = Properties.Resources.D;
+                pctE.Image = Properties.Resources.E;
+                pctF.Image = Properties.Resources.F;
+                pctG.Image = Properties.Resources.G;
+                pctH.Image = Properties.Resources.H;
+                pctI.Image = Properties.Resources.I;
+                pctJ.Image = Properties.Resources.J;
+                pctK.Image = Properties.Resources.K;
+                pctL.Image = Properties.Resources.L;
+                pctM.Image = Properties.Resources.M;
+                pctN.Image = Properties.Resources.N;
+                pctO.Image = Properties.Resources.O;
+                pctP.Image = Properties.Resources.p;
+                pctQ.Image = Properties.Resources.Q;
+                pctR.Image = Properties.Resources.R;
+                pctS.Image = Properties.Resources.S;
+                pctT.Image = Properties.Resources.T;
+                pctU.Image = Properties.Resources.U;
+                pctV.Image = Properties.Resources.V;
+                pctW.Image = Properties.Resources.W;
+                pctX.Image = Properties.Resources.X;
+                pctY.Image = Properties.Resources.Y;
+                pctZ.Image = Properties.Resources.Z;
+            }
+            
         }
 
         private bool winCheck()

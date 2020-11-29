@@ -28,6 +28,90 @@ namespace galgje
         Random rand = new Random();
         private void KiesLijst_Load(object sender, EventArgs e)
         {
+            //custom lijst 1
+            lstCustom1.Items.Clear();
+            if (System.IO.File.ReadAllText(@"C1w1.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w1.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w2.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w2.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w3.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w3.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w4.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w4.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w5.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w5.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w6.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w6.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w7.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w7.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w8.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w8.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w9.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w9.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w10.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w10.txt"));
+            }
+            //custom lijst 2
+            lstCustom2.Items.Clear();
+            if (!System.IO.File.Exists("C2w1.txt"))
+            {
+                System.IO.File.WriteAllText("C2w1.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w2.txt"))
+            {
+                System.IO.File.WriteAllText("C2w2.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w3.txt"))
+            {
+                System.IO.File.WriteAllText("C2w3.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w4.txt"))
+            {
+                System.IO.File.WriteAllText("C2w4.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w5.txt"))
+            {
+                System.IO.File.WriteAllText("C2w5.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w6.txt"))
+            {
+                System.IO.File.WriteAllText("C2w6.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w7.txt"))
+            {
+                System.IO.File.WriteAllText("C2w7.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w8.txt"))
+            {
+                System.IO.File.WriteAllText("C2w8.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w9.txt"))
+            {
+                System.IO.File.WriteAllText("C2w9.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w10.txt"))
+            {
+                System.IO.File.WriteAllText("C2w10.txt", "");
+            }
             lblWhitespace.Text = "";
             //arrey meubilair aangeven
             meubilair = Home.meubilair;
@@ -76,7 +160,7 @@ namespace galgje
 
         private void btnRandom_Click(object sender, EventArgs e)
         {
-            int rng = rand.Next(6);
+            int rng = rand.Next(8);
             switch(rng)
             {
                 case 1:
@@ -109,10 +193,20 @@ namespace galgje
                     Game frmGame6 = new Game();
                     frmGame6.Show();
                     break;
-                default:
-                    lijstId = "meubels";
+                case 7:
+                    lijstId = "c1";
                     Game frmGame7 = new Game();
                     frmGame7.Show();
+                    break;
+                case 8:
+                    lijstId = "C2";
+                    Game frmGame8 = new Game();
+                    frmGame8.Show();
+                    break;
+                default:
+                    lijstId = "meubels";
+                    Game frmGame9 = new Game();
+                    frmGame9.Show();
                     break;
             }
         }
@@ -163,6 +257,90 @@ namespace galgje
 
         private void KiesLijst_Activated(object sender, EventArgs e)
         {
+            //custom lijst 1
+            lstCustom1.Items.Clear();
+            if (System.IO.File.ReadAllText(@"C1w1.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w1.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w2.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w2.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w3.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w3.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w4.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w4.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w5.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w5.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w6.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w6.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w7.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w7.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w8.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w8.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w9.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w9.txt"));
+            }
+            if (System.IO.File.ReadAllText(@"C1w10.txt") != "")
+            {
+                lstCustom1.Items.Add(System.IO.File.ReadAllText(@"C1w10.txt"));
+            }
+            //custom lijst 2
+            lstCustom2.Items.Clear();
+            if (!System.IO.File.Exists("C2w1.txt"))
+            {
+                System.IO.File.WriteAllText("C2w1.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w2.txt"))
+            {
+                System.IO.File.WriteAllText("C2w2.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w3.txt"))
+            {
+                System.IO.File.WriteAllText("C2w3.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w4.txt"))
+            {
+                System.IO.File.WriteAllText("C2w4.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w5.txt"))
+            {
+                System.IO.File.WriteAllText("C2w5.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w6.txt"))
+            {
+                System.IO.File.WriteAllText("C2w6.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w7.txt"))
+            {
+                System.IO.File.WriteAllText("C2w7.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w8.txt"))
+            {
+                System.IO.File.WriteAllText("C2w8.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w9.txt"))
+            {
+                System.IO.File.WriteAllText("C2w9.txt", "");
+            }
+            if (!System.IO.File.Exists("C2w10.txt"))
+            {
+                System.IO.File.WriteAllText("C2w10.txt", "");
+            }
             if (Game.opnieuw)
             {
                 Game frmGame0 = new Game();
@@ -178,13 +356,16 @@ namespace galgje
 
         private void BtnCustom1_Click(object sender, EventArgs e)
         {
-            
-            
+            lijstId = "C1";
+            Game frmGame0 = new Game();
+            frmGame0.Show();
         }
 
         private void BtnCustom2_Click(object sender, EventArgs e)
         {
-            
+            lijstId = "C2";
+            Game frmGame0 = new Game();
+            frmGame0.Show();
         }
     }
 }
